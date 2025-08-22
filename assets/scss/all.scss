@@ -2,6 +2,10 @@
 @import './utils/variables';
 @import "../../node_modules/bootstrap";
 
+
+@import "./utils/utilities.scss";
+@import "bootstrap/scss/utilities/api";
+
 @import "/assets/scss/base/base.scss";
 
 @import './layout/header.scss';
@@ -9,3 +13,5 @@
 
 @import './pages/index.scss';
 @import './pages/user.scss';
+
+@import'./utils/variables';
